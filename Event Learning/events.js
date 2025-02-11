@@ -15,5 +15,10 @@ btn3.onclick = () => {
 
 }
 
+let btn4 = document.querySelector("#btn4");
+btn4.onclick = () =>{
+    console.log("hello javaScript");   
+}
+
 
 
