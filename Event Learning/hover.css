@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    gap: 10%;
+}
+
+
+#box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memeDiv{
+}
+
+
+.Apply{
+    width: 500px;
+    height: 300px;
+    background-image: url(hq720.jpg);
+    background-size: 100% 100%;  
+    opacity: 1;
+    
+}

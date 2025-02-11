@@ -15,10 +15,14 @@ btn3.onclick = () => {
 
 }
 
+// Event listner
 let btn4 = document.querySelector("#btn4");
-btn4.onclick = () =>{
-    console.log("hello javaScript");   
-}
+btn4.addEventListener("click", () =>{
+    console.log("Button was Clicked");
+})
 
+btn4.addEventListener("click", () =>{
+    console.log("Button was clicked 2");
+})
 
 
